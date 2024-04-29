@@ -1,3 +1,7 @@
 div.container {
     border: solid violet;
 }
+
+img {
+    height: 200px;
+}
