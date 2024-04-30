@@ -47,3 +47,9 @@ button.my_class-button {
     color: white;
     background-color: #1abc9c;
 }
+
+button.my_class-button-send {
+    background-color: #1abc9c;
+    color: white;
+    border-radius: .3rem;
+}
