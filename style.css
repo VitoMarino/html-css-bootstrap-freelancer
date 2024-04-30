@@ -1,21 +1,22 @@
-div.container {
-    border: solid violet;
+ul {
+    list-style: none;
 }
 
 img {
     height: 200px;
 }
-.my_class-color-img {
-    background-color: #1abc9c;
-    color: white;
-}
-
-ul {
-    list-style: none;
-}
 
 header nav ul li a {
     text-decoration: none;
+}
+
+div.container {
+    border: solid violet;
+}
+
+.my_class-color-img {
+    background-color: #1abc9c;
+    color: white;
 }
 
 div.my_class-color-header {
