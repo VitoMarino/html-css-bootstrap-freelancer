@@ -52,3 +52,9 @@ button.my_class-button-download {
 img.my_class-img {
     border-radius: 10%;
 }
+
+span.my_class-solid {
+    border: solid;
+    border-radius: 50%;
+    padding: .3rem .5rem;
+}
