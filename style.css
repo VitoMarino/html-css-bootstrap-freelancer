@@ -30,3 +30,20 @@ div.my_class-background-color {
 div.my_class-background-color-footer {
     background-color: #2c3e50;
 }
+
+.my_class-text {
+    font-size: .7rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+span.my_class-color-span {
+    color: #1abc9c;
+}
+
+button.my_class-button {
+    border-radius: .3rem;
+    text-decoration: none;
+    color: white;
+    background-color: #1abc9c;
+}

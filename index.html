@@ -49,12 +49,15 @@
     <div class="container text-center">
         <div class="row">
             <div class="col">
-                <section class="my_class-color-img">
-                    <img src="img/avatar.svg" alt="avatar">
-                    <h1 class="text-uppercase">Start Bootstrap</h1>
-                    <span class="my-class-star">linea &star; linea</span>
-                    <p class="text-uppercase">Graphic artist - web designer - illustrator</p>
-                </section>
+                <main>
+                    <div class="row">
+                        <div class="col my_class-color-img">
+                            <img src="img/avatar.svg" alt="avatar">
+                            <h1 class="text-uppercase">Start Bootstrap</h1>
+                            <span class="my-class-star">linea &star; linea</span>
+                            <p class="text-uppercase">Graphic artist - web designer - illustrator</p>
+                        </div>
+                    </div>
                     
                     <div class="row mb-5">
                         <div class="col">
@@ -74,19 +77,32 @@
         
                     <div class="row">
                         <div class="col my_class-color-img">
-                            <h2 class="text-uppercase">About</h2>
+                            <h2 class="text-uppercase pt-5">About</h2>
                             <span class="my-class-star">linea &star; linea</span>
                             <section class="d-sm-flex d-md-flex">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, aperiam quaerat officia sint labore, totam fuga sit consequuntur maxime ab cum facilis maiores fugiat temporibus nostrum error veniam rerum soluta.</p>
                                 <p class="mb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui autem nostrum vitae magnam, quaerat alias beatae accusamus officiis, in soluta temporibus, blanditiis consectetur? Veritatis maxime delectus natus! Delectus, impedit ipsam!</p>
                             </section>
-                            <button class="mb-5">Download</button>
+                            <button class="mb-5 my_class-button" type="button">Download</button>
                         </div>
                     </div>
         
                     <div class="row">
                         <div class="col">
-                            <h2 class="text-uppercase">Contact me</h2>
+                            <h2 class="text-uppercase pt-5">Contact me</h2>
+                            <span class="my-class-star">linea &star; linea</span>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="text" placeholder="Name">
+                                <input type="email" class="form-control" id="email" placeholder="Email Adress">
+                                <input type="text" class="form-control" id="number" placeholder="Phone Number">
+                                <textarea class="form-control" name="name" id="name" cols="30" rows="10" placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <!--
+                    <div class="row">
+                        <div class="col">
+                            <h2 class="text-uppercase pt-5">Contact me</h2>
                             <span class="my-class-star">linea &star; linea</span>
                             <section class="text-start ps-5 pe-5">
                                 <p>Name</p>
@@ -101,7 +117,7 @@
                                 <button>Send</button>
                             </section>
                         </div>
-                    </div>
+                    </div>-->
                 </main>
             </div>
         </div>
@@ -111,23 +127,23 @@
         <div class="row">
             <div class="col my_class-background-color">
                 <footer>
-                    <article class="d-flex justify-content-evenly mb-5">
+                    <article class="d-flex justify-content-evenly align-items-center mb-5">
                         <section>
-                            <h3 class="text-uppercase">Location</h3>
+                            <h3 class="text-uppercase fs-5 pt-5">Location</h3>
                             <p>2215 John Daniel Drive Clark, MO 54243</p>
                         </section>
                         <section>
-                            <h3 class="text-uppercase">Around the Web</h3>
+                            <h3 class="text-uppercase fs-5 pt-5">Around the Web</h3>
                         </section>
                         <section>
-                            <h3 class="text-uppercase">About Freelancer</h3>
-                            <p>Freelancer is a free to use, open source Bootstrap<br> theme created by Sytart Bootstrap</p>
+                            <h3 class="text-uppercase fs-5 pt-5">About Freelancer</h3>
+                            <p>Freelancer is a free to use, open source Bootstrap<br> theme created by <span class="my_class-color-span">Sytart Bootstrap</span>.</p>
                         </section>
                     </article>
 
                     <div class="row">
                         <div class="col my_class-background-color-footer">
-                            <p>Copyright Your Website 2019</p>
+                            <p class="my_class-text text-center">Copyright Your Website 2019</p>
                         </div>
                     </div>
                 </footer>
