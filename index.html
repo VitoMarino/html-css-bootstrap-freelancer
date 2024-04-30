@@ -14,35 +14,27 @@
         <div class="container my_class-color-header">
             <div class="row">
                 <div class="col">
-                    <nav class="d-flex justify-content-evenly align-items-center">
-                        <ul>
-                            <li>
-                                <a class="text-white text-uppercase fs-5" href="">
-                                    <strong>Sart Bootstrap</strong>
-                                </a>
-                            </li>
-                        </ul>
-
-                        <ul class="d-flex">
-                            <li>
-                                <a class="text-white text-uppercase me-3" href="">
-                                    <strong>Portfolio</strong>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-white text-uppercase me-3" href="">
-                                    <strong>About</strong>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-white text-uppercase me-3" href="">
-                                    <strong>Contact</strong>
-                                </a>
-                            </li>
-                        </ul>
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                        <div class="container-fluid">
+                            <a class="navbar-brand text-uppercase" href="#">Start Bootstrap</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active text-uppercase" aria-current="page" href="#">Portfolio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" href="#">About</a> 
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase" href="#">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </nav>
-                </div>
-            </div>
         </div>
     </header>
     
@@ -83,7 +75,7 @@
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, aperiam quaerat officia sint labore, totam fuga sit consequuntur maxime ab cum facilis maiores fugiat temporibus nostrum error veniam rerum soluta.</p>
                                 <p class="mb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui autem nostrum vitae magnam, quaerat alias beatae accusamus officiis, in soluta temporibus, blanditiis consectetur? Veritatis maxime delectus natus! Delectus, impedit ipsam!</p>
                             </section>
-                            <button class="mb-5 my_class-button" type="button">Download</button>
+                            <button type="button" class="mb-4 btn btn my_class-button-download">Download</button>
                         </div>
                     </div>
         
@@ -96,7 +88,7 @@
                                 <input type="email" class="form-control" id="email" placeholder="Email Adress">
                                 <input type="text" class="form-control" id="number" placeholder="Phone Number">
                                 <textarea class="form-control mb-2" name="name" id="name" cols="30" rows="10" placeholder="Message"></textarea>
-                                <button class="my_class-button-send p-2 ps-3 pe-3" type="button" id="Button-send">Send</button>
+                                <button type="button" class="btn btn my_class-button">Send</button>
                             </div>
                         </div>
                     </div>

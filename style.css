@@ -43,16 +43,14 @@ span.my_class-color-span {
 }
 
 button.my_class-button {
-    border-radius: .3rem;
-    text-decoration: none;
-    color: white;
     background-color: #1abc9c;
+    color: white;
 }
 
-button.my_class-button-send {
+button.my_class-button-download {
     background-color: #1abc9c;
     color: white;
-    border-radius: .3rem;
+    border-color: white;
 }
 
 img.my_class-img {
