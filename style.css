@@ -10,10 +10,6 @@ header nav ul li a {
     text-decoration: none;
 }
 
-div.container {
-    border: solid violet;
-}
-
 .my_class-color-img {
     background-color: #1abc9c;
     color: white;
