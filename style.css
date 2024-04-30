@@ -53,3 +53,7 @@ button.my_class-button-send {
     color: white;
     border-radius: .3rem;
 }
+
+img.my_class-img {
+    border-radius: 10%;
+}
